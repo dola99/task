@@ -77,8 +77,8 @@ class AnimatedChart extends StatelessWidget {
                   builder: (data, point, series, pointIndex, seriesIndex) {
                     final entry = orderData[pointIndex];
                     return ChartTooltip(
-                      date: entry.key,value: entry.value,
-                    
+                      date: entry.key,
+                      value: entry.value,
                     );
                   },
                 ),
